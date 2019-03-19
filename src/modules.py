@@ -33,3 +33,5 @@ print(os.getcwd())
 print(os.getlogin())
 
 print(os.linesep)
+
+input('Press ENTER to exit')

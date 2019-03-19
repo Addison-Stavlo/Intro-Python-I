@@ -1,5 +1,5 @@
 import sys
-import math
+from math import sqrt
 
 clArgs = sys.argv[1:]
 num = int(clArgs[0])
@@ -9,7 +9,7 @@ def isNumberPrime(num):
     if num <= 1:
         return False
     i = 2
-    while i <= math.sqrt(num):
+    while i <= sqrt(num):
         if num % i == 0:
             return False
         else:
